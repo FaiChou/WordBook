@@ -11,6 +11,7 @@
 		4D57AFF92994945A00CE6803 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D57AFF82994945A00CE6803 /* ContentView.swift */; };
 		4D57AFFB2994945B00CE6803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D57AFFA2994945B00CE6803 /* Assets.xcassets */; };
 		4D57AFFF2994945B00CE6803 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D57AFFE2994945B00CE6803 /* Preview Assets.xcassets */; };
+		4DAA142F29AF7EAF00E8FB2D /* WordBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA142D29AF7EAF00E8FB2D /* WordBook.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4D57AFFA2994945B00CE6803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D57AFFC2994945B00CE6803 /* WordBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordBook.entitlements; sourceTree = "<group>"; };
 		4D57AFFE2994945B00CE6803 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DAA142E29AF7EAF00E8FB2D /* WordBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordBook.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				4D57AFF62994945A00CE6803 /* WordBookApp.swift */,
 				4D57AFF82994945A00CE6803 /* ContentView.swift */,
+				4DAA142D29AF7EAF00E8FB2D /* WordBook.xcdatamodeld */,
 				4D57AFFA2994945B00CE6803 /* Assets.xcassets */,
 				4D57AFFC2994945B00CE6803 /* WordBook.entitlements */,
 				4D57AFFD2994945B00CE6803 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAA142F29AF7EAF00E8FB2D /* WordBook.xcdatamodeld in Sources */,
 				4D57AFF92994945A00CE6803 /* ContentView.swift in Sources */,
 				4D57AFF72994945A00CE6803 /* WordBookApp.swift in Sources */,
 			);
@@ -360,6 +364,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4DAA142D29AF7EAF00E8FB2D /* WordBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DAA142E29AF7EAF00E8FB2D /* WordBook.xcdatamodel */,
+			);
+			currentVersion = 4DAA142E29AF7EAF00E8FB2D /* WordBook.xcdatamodel */;
+			path = WordBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4D57AFEB2994945A00CE6803 /* Project object */;
 }
